@@ -1,0 +1,136 @@
+.main-backgrnd {
+  background: #0828cc;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: stretch;
+}
+
+.top-nav {
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: stretch;
+}
+
+.nav-container {
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  height: 45px;
+}
+
+.co-icon {
+  margin-right: auto;
+  float: left;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  /* text-transform: uppercase; */
+  text-align: center;
+  position: sticky;
+  text-align: start;
+}
+
+.nav-item {
+  font-family: "Roboto", sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: white;
+  padding: 5px;
+  margin: 35px;
+}
+
+.subscribe {
+  width: 125px;
+  height: 45px;
+  background-color: transparent;
+  margin-left: auto;
+  font-family: "Roboto", sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  text-align: center;
+  border: 1px solid white;
+  padding: 11px, 23px;
+  border-radius: 100em;
+  position: sticky;
+  transition-duration: 0.4s;
+}
+.subscribe:hover {
+  background-color: white;
+  color: #0828cc;
+}
+
+.page-body {
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: stretch;
+  align-content: stretch;
+}
+
+.generic-co-header {
+  margin: 20px auto;
+  margin-bottom: 40px;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-size: 55px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+.edgy-co-text {
+  height: 100px;
+  width: 600px;
+  margin: 0 auto;
+  margin-bottom: 40px;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  line-height: 35px;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+.explore-me {
+  height: 55px;
+  width: 200px;
+  margin: 0 auto;
+  margin-top: 30px;
+  background-color: white;
+  color: #0828cc;
+  font-family: "Roboto", sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  text-align: center;
+  border: none;
+  border: 1px solid white;
+  padding: 11px, 23px;
+  border-radius: 100em;
+  transition-duration: 0.4s;
+}
+
+.explore-me:hover {
+  background-color: transparent;
+  color: white;
+}
